@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Pahan Kuduwa - 2021</title>
+    <link rel="stylesheet" href="styles.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T74B66HK7P"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -13,29 +14,10 @@
     <script src="https://cdn.babylonjs.com/babylon.js"></script>
     <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
     <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
-    <script async src="https://www.youtube.com/iframe_api"></script>
   </head>
   <body>
     <canvas id="renderCanvas" touch-action="none"></canvas>
-    <iframe id="backgroundAudio" width="0" height="0" src="https://www.youtube.com/embed/sgsHipWvVow"></iframe>
 
     <script src="scene.min.js"></script>
-    <script>
-      function onYouTubeIframeAPIReady() {
-          var player;
-  
-          player = new YT.Player('backgroundAudio', {
-              playerVars: {
-                  'autoplay': 1,
-                  'loop': 1,
-              },
-              events: {
-                  'onReady': function (e) {
-                      e.target.setVolume(50);
-                  }
-              }
-          });
-      }
-  </script>
   </body>
 </html>
