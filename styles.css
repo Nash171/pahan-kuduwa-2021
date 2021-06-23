@@ -11,3 +11,39 @@ html, body {
     width: 100%;
     height: 100%;
 }
+
+#info {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #8591ff38
+}
+
+.banner {
+    height: 40px;
+    width: 80px;
+    background-image: url(./banner.jpg);
+    background-size: contain;
+    margin: 10px;
+}
+
+.links { 
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.links .link {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.links .link img {
+    width: 100%;
+    height: 100%;
+}
